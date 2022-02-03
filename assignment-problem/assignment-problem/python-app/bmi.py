@@ -1,6 +1,6 @@
 print('(1) Metric (m, kg) or (2) Non-Metric (ft, pounds)?')
 
-chosen_system = input('Please choose: ')
+chosen_system = input('Please choose your input either 1 or 2: ')
 
 if (chosen_system != '1' and chosen_system != '2'):
   print('You have to choose either metric or non-metric. Shutting down...')
@@ -9,7 +9,7 @@ if (chosen_system != '1' and chosen_system != '2'):
 height_unit = 'meters'
 weight_unit = 'kilograms'
 
-if (chosen_system == '2'):
+if (chosen_system == '1'):
   height_unit = 'feet'
   weight_unit = 'pounds'
 
